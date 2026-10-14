@@ -1,0 +1,5 @@
+# Raw survey downloads are too big for GitHub (the GSS .dta is ~600 MB);
+# get_data.py re-downloads them. The cleaned CSVs in data/ are kept.
+data/raw/
+.venv/
+__pycache__/
